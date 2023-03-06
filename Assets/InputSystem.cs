@@ -40,7 +40,7 @@ public partial class @InputSystem : IInputActionCollection2, IDisposable
                     ""name"": ""Rotation"",
                     ""type"": ""Value"",
                     ""id"": ""569a4da5-3ab0-4e06-ab9c-59340d46e53a"",
-                    ""expectedControlType"": ""Analog"",
+                    ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": true
@@ -125,10 +125,10 @@ public partial class @InputSystem : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""1D Axis"",
-                    ""id"": ""6b2814b3-7a03-4f3a-be97-c8d3d15978fc"",
-                    ""path"": ""1DAxis"",
-                    ""interactions"": """",
+                    ""name"": ""2D Vector"",
+                    ""id"": ""12273ee1-66a0-4c30-a8b5-5900753cabb8"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": ""Press(pressPoint=0.1,behavior=2)"",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Rotation"",
@@ -136,9 +136,9 @@ public partial class @InputSystem : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""negative"",
-                    ""id"": ""c1347138-e00b-4c6d-938d-3f68e2031c49"",
-                    ""path"": ""<Keyboard>/q"",
+                    ""name"": ""up"",
+                    ""id"": ""9e4ce547-7ed2-4168-acb6-42839938b65a"",
+                    ""path"": ""<Keyboard>/i"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -147,9 +147,31 @@ public partial class @InputSystem : IInputActionCollection2, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""positive"",
-                    ""id"": ""14009362-23c9-45c6-988d-8b673bfb0501"",
-                    ""path"": ""<Keyboard>/e"",
+                    ""name"": ""down"",
+                    ""id"": ""bd0c4447-8f47-42a2-ac50-82c8d5008e73"",
+                    ""path"": ""<Keyboard>/k"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Rotation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""247cff2c-f9da-46bf-995a-8f6e1bb91e8c"",
+                    ""path"": ""<Keyboard>/j"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Rotation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""13431977-e1ef-47a5-93ac-43001e796869"",
+                    ""path"": ""<Keyboard>/l"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
